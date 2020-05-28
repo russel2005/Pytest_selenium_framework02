@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f41800ec-224a-4b9c-ae25-ecdf9f6fdc7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/util/DatabaseManage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/TaxDataDetails.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/DBUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/ReturnPreview.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,22 +15,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/home/login_tests.py">
+        <entry file="file://$PROJECT_DIR$/tests/pytestpackage/database_manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="4709">
+              <caret line="277" selection-start-line="277" selection-end-line="277" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/google/GoogleSearchTest.py">
+        <entry file="file://$PROJECT_DIR$/util/DBUtil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="-1584">
+              <folding>
+                <element signature="e#1#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/util/ReturnPreview.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="626">
+              <caret line="385" selection-start-line="385" selection-end-line="385" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/DatabaseManage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="626">
@@ -79,15 +93,6 @@
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/pytestpackage/test_cmd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -154,6 +159,8 @@
         <option value="$PROJECT_DIR$/util/navigation.py" />
         <option value="$PROJECT_DIR$/util/TaxDataDetails.py" />
         <option value="$PROJECT_DIR$/util/DatabaseManage.py" />
+        <option value="$PROJECT_DIR$/util/DBUtil.py" />
+        <option value="$PROJECT_DIR$/util/ReturnPreview.py" />
       </list>
     </option>
   </component>
@@ -316,7 +323,7 @@
       <workItem from="1589550776423" duration="2991000" />
       <workItem from="1589922104195" duration="26000" />
       <workItem from="1590191269409" duration="23000" />
-      <workItem from="1590596518889" duration="1306000" />
+      <workItem from="1590596518889" duration="2261000" />
     </task>
     <task id="LOCAL-00001" summary="create folder structure">
       <created>1588025540172</created>
@@ -339,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590596577736</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added files">
+      <created>1590605183448</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590605183448</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28706000" />
+    <option name="totallyTimeSpent" value="29661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -425,16 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/pytestpackage/database_manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4641">
-          <caret line="277" selection-start-line="277" selection-end-line="277" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,6 +533,35 @@
           <caret line="286" selection-start-line="286" selection-end-line="286" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/pytestpackage/database_manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4709">
+          <caret line="277" selection-start-line="277" selection-end-line="277" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/DBUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584">
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/ReturnPreview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="385" selection-start-line="385" selection-end-line="385" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
