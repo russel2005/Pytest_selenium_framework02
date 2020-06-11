@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f41800ec-224a-4b9c-ae25-ecdf9f6fdc7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/util/DBUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/ReturnPreview.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f41800ec-224a-4b9c-ae25-ecdf9f6fdc7d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +249,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloWorld" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -323,7 +319,7 @@
       <workItem from="1589550776423" duration="2991000" />
       <workItem from="1589922104195" duration="26000" />
       <workItem from="1590191269409" duration="23000" />
-      <workItem from="1590596518889" duration="2261000" />
+      <workItem from="1590596518889" duration="2897000" />
     </task>
     <task id="LOCAL-00001" summary="create folder structure">
       <created>1588025540172</created>
@@ -353,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590605183448</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added files util/returnpreveiw.py">
+      <created>1590673386004</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590673386004</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29661000" />
+    <option name="totallyTimeSpent" value="30297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -415,7 +418,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create folder structure" />
     <MESSAGE value="added files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added files" />
+    <MESSAGE value="added files util/returnpreveiw.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added files util/returnpreveiw.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Pytest_framework$GoogleSearchTest.coverage" NAME="GoogleSearchTest Coverage Results" MODIFIED="1589556393410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/google" />
