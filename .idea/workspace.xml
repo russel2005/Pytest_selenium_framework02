@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f41800ec-224a-4b9c-ae25-ecdf9f6fdc7d" name="Default Changelist" comment="added file DriverInitialize">
-      <change afterPath="$PROJECT_DIR$/tests/pytestpackage/test_ordering.py" afterDir="false" />
+    <list default="true" id="f41800ec-224a-4b9c-ae25-ecdf9f6fdc7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/pytestpackage/test_parameterize.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,18 +18,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/TaxDataDetails.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17493">
-              <caret line="1042" selection-start-line="1042" selection-end-line="1042" />
-              <folding>
-                <element signature="e#73#103#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -103,11 +91,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/pytestpackage/test_ordering.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="204">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/pytestpackage/test_parameterize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -148,12 +145,13 @@
         <option value="$PROJECT_DIR$/util/ReturnPreview.py" />
         <option value="$PROJECT_DIR$/tests/google/DriverInitialize.py" />
         <option value="$PROJECT_DIR$/tests/pytestpackage/test_ordering.py" />
+        <option value="$PROJECT_DIR$/tests/pytestpackage/test_parameterize.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="725" />
-    <option name="y" value="120" />
+    <option name="x" value="1382" />
+    <option name="y" value="572" />
     <option name="width" value="1945" />
     <option name="height" value="1095" />
   </component>
@@ -236,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_ordering">
+  <component name="RunManager" selected="Python.test_parameterize">
     <configuration name="GoogleSearchTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pytest_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,8 +279,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_parameterize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pytest_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/pytestpackage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/pytestpackage/test_parameterize.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_parameterize" />
         <item itemvalue="Python.test_ordering" />
         <item itemvalue="Python.GoogleSearchTest" />
       </list>
@@ -309,7 +330,7 @@
       <workItem from="1591896251584" duration="1940000" />
       <workItem from="1593015841072" duration="28000" />
       <workItem from="1593640359109" duration="686000" />
-      <workItem from="1594081267854" duration="3861000" />
+      <workItem from="1594081267854" duration="8163000" />
     </task>
     <task id="LOCAL-00001" summary="create folder structure">
       <created>1588025540172</created>
@@ -353,28 +374,41 @@
       <option name="project" value="LOCAL" />
       <updated>1591896421492</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added file test_ordering.py">
+      <created>1594316461705</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594316461705</updated>
+    </task>
+    <task id="LOCAL-00008" summary="modified file test_ordering.py for dependency and added plugins">
+      <created>1594481359801</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594481359801</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36812000" />
+    <option name="totallyTimeSpent" value="41114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.18151373" />
       <window_info id="Structure" order="1" sideWeight="0.50124687" side_tool="true" weight="0.25318152" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14265537" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32909605" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5127119" />
@@ -417,10 +451,13 @@
     <MESSAGE value="added files" />
     <MESSAGE value="added files util/returnpreveiw.py" />
     <MESSAGE value="added file DriverInitialize" />
-    <option name="LAST_COMMIT_MESSAGE" value="added file DriverInitialize" />
+    <MESSAGE value="added file test_ordering.py" />
+    <MESSAGE value="modified file test_ordering.py for dependency and added plugins" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified file test_ordering.py for dependency and added plugins" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Pytest_framework$test_ordering.coverage" NAME="test_ordering Coverage Results" MODIFIED="1594316338459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/pytestpackage" />
+    <SUITE FILE_PATH="coverage/Pytest_framework$test_parameterize.coverage" NAME="test_parameterize Coverage Results" MODIFIED="1594481805947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/pytestpackage" />
+    <SUITE FILE_PATH="coverage/Pytest_framework$test_ordering.coverage" NAME="test_ordering Coverage Results" MODIFIED="1594481265248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/pytestpackage" />
     <SUITE FILE_PATH="coverage/Pytest_framework$GoogleSearchTest.coverage" NAME="GoogleSearchTest Coverage Results" MODIFIED="1589556393410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/google" />
   </component>
   <component name="editorHistoryManager">
@@ -575,8 +612,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/pytestpackage/test_ordering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/pytestpackage/test_parameterize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
